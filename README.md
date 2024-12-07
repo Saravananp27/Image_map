@@ -1,6 +1,6 @@
 # Ex04 Places Around Me
-# Date:
-# AIM
+# Date:25\10\2024
+# AIM:
 To develop a website to display details about the places around my house.
 
 # DESIGN STEPS
@@ -23,6 +23,119 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 # CODE
+```
+map.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE MAPPING</title>
+</head>
+<body>
+    <h1>Explore Locations Around My House</h1>
+    <p>Click on the marked locations to learn more about each place.</p>
+    
+    <img src="map.png" usemap="#image-map" alt="Map Image">
+    
+    <map name="image-map">
+        <area target="" alt="Indo-American College" title="Indo-American College" href="index1.html" coords="1358,782,1344,1014,1792,779" shape="poly"></area>
+        <area target="" alt="Aadhi Bhagawan College of Pharmacy" title="Aadhi Bhagawan College of Pharmacy" href="index2.html"coords="961,387,939,604,1326,447,1285,438" shape="poly"></area> 
+        <area target="" alt="AS Garden Villa & Resort" title="AS Garden Villa & Resort" href="index3.html"coords="140,505,86,682,538,605" shape="poly"></area> 
+        <area target="" alt="Thalapureeswarar Temple" title="Thalapureeswarar Temple" href="index4.html" coords="1353,323,1442,520,1765,284" shape="poly"></area>
+        <area target="" alt="Thandarai Anaicut" title="Thandarai Anaicut" href="index5.html"coords="945,807,1172,794,1176,952,942,945" shape="poly"></area> 
+    </map>
+    </body>
+</html>
+
+index1.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Indo-American college</title>
+    </head>
+    <body>
+        <h1>Indo-American college</h1>
+        <img src="indo american.png"usemap="#image-map"style="1000px;height:500px;">
+        <p>Indo-American college is  a general degree college locate in cheyyar</p>
+    </body>
+</html>
+
+index2.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width,initial-scale=1.0">
+        <title>Aadhi Bhagawan college of Pharmacy</title>
+    </head>
+    <body>
+        <h1>Aadhi Bhagawan college of Pharmacy</h1>
+        <img src="Aadhi college .png" usemap="#image-map" style="width:1000px;height:500px;">
+        <p>Aadhi Bhagawan college of Pharmacy is recognized by Tamil nadu</p>
+</body>
+</html>
+
+index3.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width,initial-scale=1.0">
+        <title>AS Garden villa & Resort</title>
+    </head>
+    <body>
+        <h1>AS Garden villa & Resort</h1>
+        <img src="As garden.png"usemap="#image-map"style="width:1000px;height:500px;">
+        <p>AS Garden villa & Resort is a premium holiday destination offers an exclusive experience perfect for family </p>
+</body>
+</html>
+
+index4.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width,initial-scale=1.0">
+        <title>Thalapureeswarar Temple</title>
+    </head>
+    <body>
+        <h1>Thalapureeswarar Temple</h1>
+        <img src="thalapureehwarar.png"usemap="#image-map"style="width:1000px;height:500px;">
+        <p>Thalapureeswarar Temple padal petra thalam is located in TamilNadu</p>
+</body>
+</html>
+
+index5.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width,initial-scale=1.0">
+        <title>Thandarai Anaicut</title>
+    </head>
+    <body>
+        <h1>Thandarai Anaicut</h1>
+        <img src="thandarai.png"usemap="#image-map"style="width:1000px;height:500px;">
+        <p>Thandarai Anaicut is listed under Tourist Attraction in Thiruvannamalai</p>
+</body>
+</html>
+
+```
 # OUTPUT
+![alt text](map.png)
+![alt text](INdo.png)
+![alt text](Aadhi-1.png)
+![alt text](<villa AS.png>)
+![alt text](TEMPLE.png)
+![alt text](thandarai....png)
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
