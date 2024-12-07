@@ -50,6 +50,7 @@ map.html
 </html>
 
 index1.html
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -99,6 +100,7 @@ index3.html
         <p>AS Garden villa & Resort is a premium holiday destination offers an exclusive experience perfect for family.Located in the heart of Thamaraipakkam, this premium holiday destination offers an exclusive experience perfect for family getaways, weddings, and events. With greenish gardens and a stunning natural beauty environment, AS Garden Villa is the perfect place to unwind and relax. One can start a day with warm sunshine, enjoy the cool breeze, and take in the peaceful ambiance that surrounds you. And that's not all - the resort is also strategically located reachable to popular tourist places, however, you will never run out of things to do. Whether you're seeking a romantic retreat, a family vacation, or a stunning venue for your special occasion, AS Garden Villa has got you covered. Book your stay today and experience the ultimate in luxury and hospitality!</p>
 </body>
 </html>
+
 index4.html
 
 <!DOCTYPE html>
